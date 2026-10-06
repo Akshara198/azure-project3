@@ -1,0 +1,12 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo "Hello from Akshara Project 3!"
+  displayName: 'Run Project 3'
+
+- script: echo "Azure DevOps pipeline is working successfully!"
+  displayName: 'Test second step'
